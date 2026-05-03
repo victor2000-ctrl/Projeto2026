@@ -19,6 +19,6 @@ namespace Projeto2026.Models
 
         public int AnoModelo { get; set; }
 
-
+        public ICollection<Consumo> Consumos { get; set; }
     }
 }
